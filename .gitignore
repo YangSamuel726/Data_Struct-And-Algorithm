@@ -1,0 +1,41 @@
+# .NET 빌드 결과 및 중간 파일
+[Bb]in/
+[Oo]bj/
+artifacts/
+
+# Visual Studio 개인 설정 및 캐시
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# JetBrains Rider 개인 설정
+.idea/
+
+# 테스트 결과 및 코드 커버리지
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# NuGet 패키지 복원 폴더 (구형 프로젝트)
+**/packages/
+!**/packages/build/
+
+# 게시 결과 및 개인 게시 설정
+[Pp]ublish/
+*.pubxml.user
+
+# 로그
+*.log
+
+# 운영체제 생성 파일
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 로컬 환경 변수 및 비밀 설정
+.env
+.env.*
+!.env.example
