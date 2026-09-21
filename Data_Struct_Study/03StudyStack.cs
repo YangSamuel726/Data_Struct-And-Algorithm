@@ -1,4 +1,5 @@
 using System;
+using System.Dynamic;
 using System.Runtime.CompilerServices;
 
 // 작성자 : 양사무엘
