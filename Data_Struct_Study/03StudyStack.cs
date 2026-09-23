@@ -83,6 +83,12 @@ public class MyStack<T>
         _array = new T[Capacity];
     }
 
+    public void Clear()
+    {
+        Array.Fill(_array, default);
+        _size = 0;
+    }
+
     // 다음 사이즈 값의 위치가 배열의 크기를 벗어나는지 확인
     // 벗어나면 배열 사이즈 재 조정 후 값 할당
     // 벗어나지 않으면 값 할당
